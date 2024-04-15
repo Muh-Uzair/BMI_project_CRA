@@ -1,0 +1,205 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0px; 
+
+}
+#root {
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0px; 
+
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+p{
+    font-family: gilroy;
+    font-weight: 700;
+    margin: 0px;
+}
+.div_app {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+
+    width: 400px;
+    height: 700px;
+
+
+    border-radius: 20px;
+
+    border: 1px solid pink ;
+    
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+
+    display: grid;
+    grid-template-rows: 50px 150px 43px 210px 80px auto;
+
+    
+    
+}
+
+
+
+
+
+
+
+.text_BMI_calculator {
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4%;
+    color: rgb(52, 52, 52);
+}
+
+
+
+
+
+
+
+.div_BMI_output {
+
+    
+    border: 1px solid pink ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+
+    width: 200px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 80px;
+    font-family: gilroy;
+    font-weight: 700;
+    color: rgb(52, 52, 52);
+}
+
+
+
+
+
+
+
+
+
+
+
+.text_you_BMI_good_bad {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 25px;
+    color: rgb(52, 52, 52);
+}
+
+
+
+
+
+
+
+
+
+
+.div_input_height, .div_input_weight {
+    
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+}
+.input_height, .input_weight{
+    
+    background-color: pink;
+    border: none;
+    height: 45px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    font-family: gilroy;
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(44, 44, 44);
+    
+}
+.input_height::placeholder , .input_weight::placeholder{
+    font-size: 20px;
+    margin: 0px;
+    color: rgb(61, 61, 61);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_height_positive , .button_weight_positive{
+    margin-left: 10px;
+    margin-right:10px;
+}
+.project_btn{
+    
+    border: none;
+    background-color: pink;
+    border-radius: 10px;  
+    
+    height: 48px;
+    width: 48px;
+
+    cursor: pointer;
+}
+.project_btn:hover {
+    background-color: rgb(255, 169, 183);
+}
+.project_btn:active{
+    background-color: pink;
+}
+.text_inside {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.div_input_weight {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+.btn_calculate {
+
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 200px;
+    background-color: rgb(255, 119, 142);
+    border: 3px solid black;
+
+    font-weight: 700;
+    font-size: 23px;
+}
